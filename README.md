@@ -1,2 +1,2 @@
 # kem2A
-Just a codes from new beginner
+Just some codes from new beginner
