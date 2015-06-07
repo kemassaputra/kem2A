@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	tools:context=".MainActivity">
+
+	<ScrollView
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent">
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:orientation="vertical">
+
+			<TextView
+				android:id="@+id/txtHijriDate"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text=""
+				android:padding="10dp"
+				android:paddingBottom="10dp"
+				android:paddingEnd="10dp"
+				android:paddingLeft="5dp"
+				android:paddingRight="5dp"
+				android:textColor="#000000"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:typeface="sans"
+				android:background="@drawable/ws_bg_title"
+				android:layout_gravity="center"/>
+
+			<TextView
+				android:id="@+id/txtAddress"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text=""
+				android:textColor="#000000"
+				android:textAlignment="center"
+				android:layout_gravity="center"
+				android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+			<TextView
+				android:id="@+id/txtPrayerTimes"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text=""
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:textColor="#FFFFFF"
+				android:textColorHighlight="#838383"
+				android:shadowColor="#797979"
+				android:shadowDx="5.0"
+				android:shadowDy="5.0"
+				android:shadowRadius="2.5"
+				android:textAlignment="center"
+				android:background="@drawable/ws_bg_jadwal_sholat"
+				android:layout_gravity="center"/>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</RelativeLayout>
+
