@@ -4,7 +4,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
 This is **_unofficial_** guide created by **AIDE** user to help other user who was develop Android projects from **AIDE**. 
 
-If you don't know what is this, please reffer to developer official website at [ http://www.android-ide.com/] [1] or you might be want to install the latest version of AIDE on [Google Play Store] [2].
+If you don't know what is this, please refer to developer official website at [ http://www.android-ide.com/] [1] or you might be want to install the latest version of AIDE on [Google Play Store] [2].
 [1]: http://www.android-ide.com/
 [2]: https://play.google.com/store/apps/details?id=com.aide.ui 
 -
